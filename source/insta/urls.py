@@ -1,5 +1,5 @@
 from django.urls import path
-from insta.api.v1.views import get_token_view, AccountPostsView
+from insta.api.v1 import get_token_view, AccountPostsView
 
 app_name = 'insta'
 
